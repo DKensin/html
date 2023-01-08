@@ -1,0 +1,62 @@
+=========================================================================
+1. Introduce
+
+<!DOCTYPE html>: document is HTML5 document
+<html>: root element of an HTML page
+<head>: contain meta information
+<title>: title for the HTML page
+<body>: define the document's body
+    <h1-h6>: heading
+    <p>: paragraph
+    <img>: image
+    <a> hyperlink
+    ...
+
+<br>: break line
+
+Ctrl + U: view HTML source
+find element: right click -> inspect
+=========================================================================
+2: HTML concepts
+
+element: everything from start tag to end tag
+    - nested element: element contain other elements
+    - never skip end tag: can lead an unexpected behaviour
+    - not case sensitive
+
+attribute: provide information about elements
+    - all elements can have attributes
+    - always specified in the stag tag
+    - name/value pairs: name="value"
+    - examples:
+        <a href="">
+            + hyperlink
+            + href: URL
+        <img src="" alt="">
+            + image
+            + src: path to image
+                - absolute URL: link to external images on another website
+                - relative URL: internal website
+            + alt: alternate text
+        style: add styles to element: color, font, size,...
+        lang:
+            + language: vi, en...
+            + country code: language-country code: "en-US"
+        title:
+            + extra information
+            + value of title: displayed as a tooltip
+
+heading: title or sub-title
+    - h1 -> h6: most to least important
+    - bigger heading:
+        + each heading has a default size
+        + specify size for heading: use style attribute with CSS font-size property
+
+paragraph:
+    - cannot change the display by add space, newline, tab...
+    - browser auto remove any extra spaces, lines...
+    - horizontal rules <hr>
+    - pre tag <pre>
+
+style
+=========================================================================
