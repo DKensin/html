@@ -58,5 +58,13 @@ paragraph:
     - horizontal rules <hr>
     - pre tag <pre>
 
-style
+style: add style to an element, use CSS property
+    - syntax: <tagname style="property:value;">
+        + property: CSS property
+        + value: CSS value
+    - back-ground color: define background color for element
+    - text color: <color>
+    - font: <font-family>
+    - text size: <font-size>
+    - text alignment: <text-align>: horizontal text alignment
 =========================================================================
