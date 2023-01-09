@@ -67,4 +67,14 @@ style: add style to an element, use CSS property
     - font: <font-family>
     - text size: <font-size>
     - text alignment: <text-align>: horizontal text alignment
+
+text formating:
+    bold:               <b>, <strong>
+    italic:             <i>, <em>
+    smaller text:       <small>
+    mark / highlight:   <mark>
+    delete text         <del>
+    insert text         <ins>
+    subscript text      <sub>
+    superscript text    <sup>
 =========================================================================
