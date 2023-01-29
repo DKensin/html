@@ -86,4 +86,12 @@ text formating:
     subscript text      <sub>
     superscript text    <sup>
 
+quotation
+    quotation:                  <blockquote>
+    short quotation:            <q>
+    abbreviation / acronym      <abbr>
+    contact information         <address>
+    work title                  <cite>
+    bi-directional override     <bdo>
+
 =========================================================================
