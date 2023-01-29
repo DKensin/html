@@ -45,6 +45,12 @@ attribute: provide information about elements
         title:
             + extra information
             + value of title: displayed as a tooltip
+
+comment:
+    - comment to source code
+    - hide content
+    - hide content inside a line
+
 =========================================================================
 3: HTML formatting and style
 
@@ -79,4 +85,5 @@ text formating:
     insert text         <ins>
     subscript text      <sub>
     superscript text    <sup>
+
 =========================================================================
