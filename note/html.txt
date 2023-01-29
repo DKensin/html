@@ -94,4 +94,26 @@ quotation
     work title                  <cite>
     bi-directional override     <bdo>
 
+css: (cascading style sheets): used to format the layout of a webpage
+    - cascading: mean if apply to parent element will also apply to all children elements within the parent, unless specify something else.
+    - using css: can be added to HTML documents in 3 ways:
+        + inline:
+            - using <style> attribute inside HTML element
+            - apply a unique style to a single element
+        + internal:
+            - using <style> element in the <head> section
+            - used to define a style for a single HTML page.
+        + external:
+            - using <link>  element to link to an external CSS file
+            - used to define the style for many HTML pages.
+        + most common way: keep styles in external CSS files
+    - css color, font, size
+        + color:        define text color to be used
+        + font-family:  define font to be used
+        + font-size:    define text size to be used
+    - css border:  define a border around an HTML element
+    - css padding: define a padding (space) between the text and the border
+    - css margin:  define a margin (space) outside the border
+    - link to external css: url/path
+
 =========================================================================
