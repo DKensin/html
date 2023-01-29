@@ -17,7 +17,7 @@
 Ctrl + U: view HTML source
 find element: right click -> inspect
 =========================================================================
-2: HTML concepts
+2: HTML basic
 
 element: everything from start tag to end tag
     - nested element: element contain other elements
@@ -45,6 +45,8 @@ attribute: provide information about elements
         title:
             + extra information
             + value of title: displayed as a tooltip
+=========================================================================
+3: HTML formatting and style
 
 heading: title or sub-title
     - h1 -> h6: most to least important
