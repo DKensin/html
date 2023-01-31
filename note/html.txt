@@ -116,4 +116,8 @@ css: (cascading style sheets): used to format the layout of a webpage
     - css margin:  define a margin (space) outside the border
     - link to external css: url/path
 
+favicon: a small image displayed next to the page title in the browser tab
+    - common name: favicon.io
+    - format suppor: ico, png, gif, jpeg, svg (depends on the browser)
+
 =========================================================================
