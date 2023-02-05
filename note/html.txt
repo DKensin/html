@@ -175,4 +175,16 @@ id attribute
             - then: link to it
     - used with javascript: getElementById() method
 
+file path:
+    - describe the location of a file in a web site's folder structure
+    - used when linking to external files, like:
+        web pages
+        images
+        style sheets
+        javascript source
+    - type of file path:
+        + absolute file path: the full URL to a file
+        + relative file path
+        + best practice: use relative file paths
+
 =========================================================================
