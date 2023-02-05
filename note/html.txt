@@ -156,4 +156,23 @@ class: used to specify a class for an HTML element
     - different elements can share same class
     - javascript can access element with a specific class name with the getElementsByClassName() method
 
+id attribute
+    - used to specify a unique id for an HTML element
+    - cannot have the same id
+    - id attribute used to point to a specific style declaration in a style sheet, also was accessed by Javascript
+    - syntax:
+        .id_name {
+            CSS properties
+        }
+    - note: id must containt at least one character; cannot start with a number, must not contain whitespaces (spaces, tabs...)
+    - class and id:
+        + a class name can be used by multiple HTML elements
+        + an id name must only be used by one HTML element
+    - bookmark with ID and Link
+        + bookmark: used to allow reader to jump to specific part of a webpage
+        + to use a bookmark:
+            - first: create it
+            - then: link to it
+    - used with javascript: getElementById() method
+
 =========================================================================
