@@ -120,4 +120,27 @@ favicon: a small image displayed next to the page title in the browser tab
     - common name: favicon.io
     - format suppor: ico, png, gif, jpeg, svg (depends on the browser)
 
+Block and Inline elements:
+    - every HTML elements has a default display value, depend on what type of element
+    - 2 display values: block and inline
+    - block-level element:
+        + always start on a new line
+        + alwyas take up the full width available
+        + 2 common used: <p>, <div>
+            <p>:    paragraph
+            <div>   division / section
+        + there are a lot of block-level elements in HTML
+    - inline element:
+        + doesn't start on a new line, only takes up as much width as necessary
+        + <span> element
+        + there are a lot of inline elements in HTML
+    - the <div> element:
+        + often used as a container for other HTML elements
+        + no required attributes, but style, class, and id are common
+        + when used together with CSS, the <div> element can be used to style blocks of content
+    - the <span> element:
+        + an inline container used to mark up a part of a text / document
+        + no required attributes, but style, class, and id are common
+        + when used together with CSS, the <span> element can be used to style part of the text
+
 =========================================================================
