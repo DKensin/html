@@ -143,4 +143,17 @@ Block and Inline elements:
         + no required attributes, but style, class, and id are common
         + when used together with CSS, the <span> element can be used to style part of the text
 
+class: used to specify a class for an HTML element
+    - multiple HTML elemnts can share the same class
+    - class attribute:
+        + used to point to a class name in a style sheet.
+        + can also used by a Javascript to access/manipulate elements with the specific class name
+    - class syntax:
+        .class_name {
+            CSS properties
+        }
+    - multiple classes
+    - different elements can share same class
+    - javascript can access element with a specific class name with the getElementsByClassName() method
+
 =========================================================================
