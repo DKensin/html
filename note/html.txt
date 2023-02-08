@@ -187,4 +187,15 @@ file path:
         + relative file path
         + best practice: use relative file paths
 
+head element:
+    - head element is a container for the following elements:
+        <title>
+        <style>:    define style information for a single HTML page
+        <meta>:     often used to specify: character set, page description, keywords, author of the document, viewport settings.
+        <link>:     often used to link to external style sheets (css)
+        <script>:   used to define client-side JavaScript
+        <base>:     specify the base URL and/or target for all relative URLs in a page.
+    - the <head> element is a container for metadata (data about data)
+    - metadata: data about the HTML document
+
 =========================================================================
