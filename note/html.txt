@@ -217,5 +217,14 @@ layout: website often display content in multiple column (like a magazine or a n
             screen size and different display devices.
         + CSS grid: offer a grid-based layout system, with rows and columns, making it easier to design web pages
 
+responsive web design: create a web page that look good on all devices
+    - will automatically adjust for different screen size and viewport
+    - setting the viewport
+    - responsive image
+    - using max-width property: scale down, but nerver scale up its original size
+    - show different image depend on different browser
+    - responsive text size
+    - media query: define completely different style for different browser size
+    - responsive framework: offer responsive design: W3.CSS, Bootstrap
 
 =========================================================================
