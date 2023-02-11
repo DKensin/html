@@ -198,4 +198,24 @@ head element:
     - the <head> element is a container for metadata (data about data)
     - metadata: data about the HTML document
 
+layout: website often display content in multiple column (like a magazine or a newspaper)
+    - HTML layout elements:
+        <header>        define a header for a document or a section
+        <nav>           define a set of navigation links
+        <section>       define a section
+        <article>       define an independent, self-contained content
+        <aside>         define content aside from the content
+        <footer>        define a footer
+        <details>       define additional details
+        <summary>       define a heading for the <details> element
+    - HTML layout technique
+        + CSS framework (like W3.CSS or Bootstrap)
+        + CSS float property
+            - easy to learn
+            - disadvantage: float elements are tied to the document flow, which may harm the flexibility
+        + CSS flexbox: used to ensure that elements behave predictably when the page layout must accommodate different
+            screen size and different display devices.
+        + CSS grid: offer a grid-based layout system, with rows and columns, making it easier to design web pages
+
+
 =========================================================================
