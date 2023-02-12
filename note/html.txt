@@ -308,4 +308,25 @@ charset: must know which character set to use
     - HTML charset attribute: use <meta> tag
         <meta charset="UTF-8">
 
+URL encode
+    - URL: uniform resource locators
+        + URL is another word for a web address
+        + URL can composed of words, Internel Protocol (IP) address (e.g. 192.168.20.50)
+        + most people enter a name when surfing because easier to remember
+    - URL:
+        + web browser request page from web sever by using a URL
+        + syntax rule:
+            scheme://prefix.domain:port/path/filename
+            scheme      type of Internet service: http, https...
+            prefix      domain prefix (default ofr http is www)
+            domain      the Internet domain name (like google.com)
+            port        the port number at the host (default for http is 80)
+            path        path at the server (if omitted: root directory of the site)
+            filename    name of a document / resource
+        + scheme
+            http        HyperText Transfer Protocol             Common web pages. Not encrypted
+            https       Secure HyperText Transfer Protocol      Secure web pages. encrypted
+            ftp         File Transfer Protocol                  Downloading / uploading file
+            file                                                A file on your computer
+    - URL encoding: URLs can only be sent over the Internet using the ASCII. If not, it has to be converted.
 =========================================================================
