@@ -294,4 +294,8 @@ entity
         + entity name: easy to remember
         + disadvantage: browser may not support
     - combine diacritical mark: `,', ~, ^, ?...
+
+symbol: mathematical, technical, currency
+    - add with: entity name / number (dec or hex)
+    - support: mathematical, Greek letter (alpha, beta...) and other entities
 =========================================================================
