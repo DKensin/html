@@ -298,4 +298,14 @@ entity
 symbol: mathematical, technical, currency
     - add with: entity name / number (dec or hex)
     - support: mathematical, Greek letter (alpha, beta...) and other entities
+
+charset: must know which character set to use
+    - list of charsets:
+        ASCII                   first character enconding standard
+        ISO-8859-1              default character set for HTML 4 (also supported UTF-8)
+        ANSI (Windows-1252)     the original Windows character set (ISO-8859-1 + 32 extra characters)
+        HTML5                   encourage using UTF-8, which cover almost characters and symbols in the world
+    - HTML charset attribute: use <meta> tag
+        <meta charset="UTF-8">
+
 =========================================================================
