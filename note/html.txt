@@ -329,4 +329,20 @@ URL encode
             ftp         File Transfer Protocol                  Downloading / uploading file
             file                                                A file on your computer
     - URL encoding: URLs can only be sent over the Internet using the ASCII. If not, it has to be converted.
+
+HTML/XHTML
+    - XHTML:
+        + a stricter (x = extensible)
+        + HTML defined as an XML application
+        + was developted to make HTML more extensible and flexible to work with other
+            data formats (such as XML)
+            - HTML: browser ignore errors
+            - XHTML: a much stricter error handling
+    - important difference: mandatory
+        <!DOCTYPE>
+        xmlns attribute in <html>
+        elements must always properly nested, closed, lowercase
+        attribute: must be lowercase, quoted, forbidden minimum
+
+
 =========================================================================
