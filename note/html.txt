@@ -154,7 +154,7 @@ class: used to specify a class for an HTML element
         }
     - multiple classes
     - different elements can share same class
-    - javascript can access element with a specific class name with the getElementsByClassName() method
+    - Javascript can access element with a specific class name with the getElementsByClassName() method
 
 id attribute
     - used to specify a unique id for an HTML element
@@ -173,7 +173,7 @@ id attribute
         + to use a bookmark:
             - first: create it
             - then: link to it
-    - used with javascript: getElementById() method
+    - used with Javascript: getElementById() method
 
 file path:
     - describe the location of a file in a web site's folder structure
@@ -181,7 +181,7 @@ file path:
         web pages
         images
         style sheets
-        javascript source
+        Javascript source
     - type of file path:
         + absolute file path: the full URL to a file
         + relative file path
@@ -193,7 +193,7 @@ head element:
         <style>:    define style information for a single HTML page
         <meta>:     often used to specify: character set, page description, keywords, author of the document, viewport settings.
         <link>:     often used to link to external style sheets (css)
-        <script>:   used to define client-side JavaScript
+        <script>:   used to define client-side Javascript
         <base>:     specify the base URL and/or target for all relative URLs in a page.
     - the <head> element is a container for metadata (data about data)
     - metadata: data about the HTML document
@@ -261,4 +261,32 @@ semantic element: element with a meaning
         + <figure>, <figcaption>
             <figure>:       self-container content: illustration, diagram, photo, code listing...
             <figcaption>:   define a caption for a <figure> element.
+
+style guide: a consistent, clean and tidy HTML code
+    - always declare the document type
+    - use lowercase name with:
+        element
+        attribute
+        file name
+    - close all HTML elements
+    - always quote attribute value
+    - always specify the alt, width, height values of a image.
+    - less spaces: easier to read
+    - avoid long code line
+    - 2 spaces instead of tab
+    - never skip <title> element
+    - always add <html>, <head> and <body>
+        recommend using the <head> tag
+        omit <body>: can produce error in older browser
+        omit <html> and <body> can also cash DOM and XML software
+    - close empty element: keep closing slash (/), it's required in XML and XHTML
+    - add lang attribute
+    - meta data: <meta charset=chatset_name should be defined
+    - setting viewport
+    - use css and Javascript
+        <link rel="stylesheet" href="styles.css">
+        <script src="myscript.js">
+        access HTML element with Javascript
+    - default file name: index.html (when URL does not specify a filename at the end)
+
 =========================================================================
