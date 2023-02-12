@@ -227,4 +227,38 @@ responsive web design: create a web page that look good on all devices
     - media query: define completely different style for different browser size
     - responsive framework: offer responsive design: W3.CSS, Bootstrap
 
+
+semantic element: element with a meaning
+    - clearly describe its meaning to both browser and developer
+        + non-semantic elements:    <div>, <span>
+        + semantic elements:        <form>, <table>, <article>
+    - why semantic: allow data to be shared and reused across application, community
+    - some semantic elements:
+        + <section>: group of content, where can be used:
+            chapter
+            introduction
+            new item
+            contact information
+        + <article>
+            forum post
+            blog post
+            user comment
+            product card
+            newspaper article
+        + <header>
+            <h1> to <h6>
+            logo or icon
+            authorship information
+        + <footer>
+            authorship information
+            copyright information
+            contact information
+            sitemap
+            back to top links
+            related documents
+        + <nav> defines a set of navigation links
+        + <aside>: define some content aside from the content it is placed in
+        + <figure>, <figcaption>
+            <figure>:       self-container content: illustration, diagram, photo, code listing...
+            <figcaption>:   define a caption for a <figure> element.
 =========================================================================
