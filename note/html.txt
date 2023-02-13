@@ -227,7 +227,6 @@ responsive web design: create a web page that look good on all devices
     - media query: define completely different style for different browser size
     - responsive framework: offer responsive design: W3.CSS, Bootstrap
 
-
 semantic element: element with a meaning
     - clearly describe its meaning to both browser and developer
         + non-semantic elements:    <div>, <span>
@@ -344,5 +343,24 @@ HTML/XHTML
         elements must always properly nested, closed, lowercase
         attribute: must be lowercase, quoted, forbidden minimum
 
+=========================================================================
+4: HTML Colors
+
+color:
+    - HTML colors are specified with predefined color names, or RGB, HEX,
+    HSL, RGBA, HSLA value
+    - color for:
+        + color names
+        + background
+        + text
+        + border
+        + color values
+    - color values:
+        + color can specified uing RGB, HEX, HSL, RGBA, HSLA value
+            RGB     rgb(255, 99, 71)
+            HEX     #ff6347
+            HSL     hsl(9, 100%, 64%)
+            RGBA    rgba(255, 99, 71, 0.5)
+            HSLA    hsla(9, 100%, 64%, 0.5)
 
 =========================================================================
