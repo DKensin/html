@@ -364,3 +364,35 @@ color:
             HSLA    hsla(9, 100%, 64%, 0.5)
 
 =========================================================================
+5. HTML links
+
+links:
+    - syntax: <a href="url">text</a>
+    - link appear as:
+        + unvisited link: underlined, blue
+        + visited link: underlined, purple
+        + active link: underlined, red
+    - target attribute
+        + default: linked page will be displayed in the current browser window
+        + target: specify where to open the linked document
+            _self: same window/tab
+            _blank: new window/tab
+            _parent: parent frame
+            _top: full body of the window
+    - absolute vs relative URL
+    - use an image as a link
+    - link to an email address
+    - button as a link
+    - link title
+
+link colors:
+    - a link will appear like this:
+        + unvisited link:   blue
+        + visited link:     purple
+        + active link:      red
+    - can change link state colors by using the CSS
+    - can change a button style using the CSS
+
+link bookmark
+
+=========================================================================
