@@ -436,3 +436,70 @@ picture element:
         + format support: some browsers or devices may not support all image format.
 
 =========================================================================
+7. HTML Table
+
+table:
+    - a table in HTML consists of table cells inside rows and columns
+    - table cell:
+        + everything between <td> and </td> (td stands for table data)
+        + a table cell can contain all softs of elements: text, image, list, link, other table...
+    - table row:
+        + between <tr> and </tr> tag
+        + tr stands for table row
+    - table header:
+        + use with <th> and </th>
+        + td stands for table header
+        + default: bold and centered, can change with CSS
+
+table border:
+    - add a border:
+        + when add a border to a table, also add border around each table cell
+        + to avoid double border, use border-collapse
+    - manipulate with border:
+        + style cell
+        + round border
+        + border style: dotted, dashed, solid, double, groove, ridge, inset, outset, none, hidden
+        + border color
+
+table size:
+    - can change size of table, row and column
+    - use style attribute to the <table> element
+
+table header:
+    - can have headers for each column or row, or many columns / rows
+    - align table header
+        + default: bold and center
+        + use text-align property to modify
+    - manipulate:
+        + multi-column header: use colspan attribute,
+        + table caption: use <caption> tag, should be inserted immediately after <table> tag
+
+padding, spacing:
+    - cell padding
+        + space between cell edge and cell content
+        + default: set to 0
+        + modify: use padding property
+    - cell spacing:
+        + space between each cell
+        + default: 2 pixels
+        + modify: border-spacing property
+
+colspan, rowspan:
+
+table styling:
+    - zebra stripe
+    - vertical zebra stripe
+    - horizontal divider: specify border only at the bottom each table row
+    - hoverable: hightlight table row when mouse move over
+
+table colgroup:
+    - use <colgroup> container contain <col> element
+    - limit CSS properties to be used in colgroup:
+        width
+        visibility
+        background
+        border
+    - empty colgroup: no style for column was specified
+    - can hide column
+
+=========================================================================
