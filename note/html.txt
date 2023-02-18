@@ -396,3 +396,43 @@ link colors:
 link bookmark
 
 =========================================================================
+6. HTML Images
+
+images:
+    - <img> tag used to embed an image in a web page
+        + not inserted, only link to web page
+        + create a holding space for a reference image
+    - <img> attributes: src, alt, width, height
+    - image size:
+        + use <style> attribute to specify the width and height of an image
+        + alternate: use width, height (pixel) attribute
+        + recommend: using the <style> attribute to prevent styles sheets changing size of an image
+    - allow animated image (gif)
+    - image floating: left/right of text
+    - common image format: apng, gif, ico, jpeg, png, svg
+
+image map:
+    - create clickable areas on an image, area was defined in <area> tag
+    - must add a usemap attribute
+    - area: rect, cricle, poly, default (entire region) and also add coordinate
+
+background-image
+    - to add background, use style attribute and CSS background-image property
+        + can also specify the background image in the <style> element, in <head> section
+        + entire page have a background image: specify background image on <body> section of CSS style
+    - background repeat
+        + default: if background image < element: repeat until reach the end of the element (body, p, h...)
+        + avoid: add background-repeat: no-repeat;
+    - background cover:
+        + cover entire element: background-size: cover;
+        + make sure entire element always covered: background-attachment: fixed;
+    - background stretch: background-size (re-size window)
+
+picture element:
+    - <picture> allow display different picture for different device or screen size
+    - contain one or more <source> element
+    - when use:
+        + different screen size or device
+        + format support: some browsers or devices may not support all image format.
+
+=========================================================================
