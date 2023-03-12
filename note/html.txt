@@ -503,3 +503,33 @@ table colgroup:
     - can hide column
 
 =========================================================================
+7. HTML List
+
+list:
+    - 2 types: order and unorder lists
+        + unorder: <ul> tag, each item: <li> tag
+        + order: <ol> tag, each item: <li> tag
+    - description list:
+        <dl> define the description list
+        <dt> define term (name)
+        <dd> describe each term
+
+unordered list:
+    - mark:
+        + default: bullet (small black circle)
+        + change: using list-style-type CSS property: disc, circle, square, none
+    - horizontal list with CSS: one popular way is style a list horizontally
+    - nested list
+
+ordered list:
+    - order:
+        + can be numerical (default) or alphabetical
+        + change: use type attribute: "1", "A", "a", "I", "i"
+    - control list counting:
+        + default: start from 1
+        + change by using start attribute
+    - nested list
+
+other list: description list
+
+=========================================================================
